@@ -9,6 +9,9 @@ module.exports = (key, options = {}) => {
         const start = new Date();
         const tags = options.tags ? options.tags : [];
 
+        tags.push('express');
+        tags.push(`express.${req.method.toLowerCase()}`);
+
         res.on('finish', () => {
             const end = new Date();
 
