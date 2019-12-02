@@ -1,7 +1,7 @@
 {
     "name": "kpi-monster-express",
     "description": "Express middleware for automatically logging API statistics to KPI Monster.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Dakota Gordon <dakota@via.world>",
     "license": "MIT",
     "keywords": [
