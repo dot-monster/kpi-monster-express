@@ -32,5 +32,7 @@ module.exports = (key, options = {}) => {
                 console.warn('Error sending request to KPI Monster', error);
             });
         });
+
+        next();
     };
 };
