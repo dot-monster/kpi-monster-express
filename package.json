@@ -1,0 +1,18 @@
+{
+    "name": "kpi-monster-express",
+    "description": "Express middleware for automatically logging API statistics to KPI Monster.",
+    "version": "0.1.0",
+    "author": "Dakota Gordon <dakota@via.world>",
+    "license": "MIT",
+    "keywords": [
+        "kpi",
+        "monster",
+        "statistics",
+        "express",
+        "middleware"
+    ],
+    "repository": "dot-monster/kpi-monster-express",
+    "engines": {
+        "node": ">= 10.15.0"
+    }
+}
